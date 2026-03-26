@@ -38,44 +38,43 @@ activities = {
         "schedule": "Mondays, Wednesdays, Fridays, 2:00 PM - 3:00 PM",
         "max_participants": 30,
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
+    },
+    "Basketball": {
+        "description": "Learn basketball skills and compete in intramural games",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["alex@mergington.edu"]
+    },
+    "Soccer": {
+        "description": "Team soccer practice and friendly matches",
+        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "max_participants": 20,
+        "participants": ["james@mergington.edu"]
+    },
+    "Art Club": {
+        "description": "Explore various art mediums and techniques",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 18,
+        "participants": ["grace@mergington.edu", "lily@mergington.edu"]
+    },
+    "Theater Club": {
+        "description": "Perform in school plays and develop acting skills",
+        "schedule": "Fridays, 4:00 PM - 6:00 PM",
+        "max_participants": 25,
+        "participants": ["jason@mergington.edu"]
+    },
+    "Robotics Club": {
+        "description": "Build and program robots for competitions",
+        "schedule": "Mondays and Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["nina@mergington.edu", "kevin@mergington.edu"]
+    },
+    "Debate Team": {
+        "description": "Develop argumentation and public speaking skills",
+        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 12,
+        "participants": ["marcus@mergington.edu"]
     }
-}
-"Basketball": {
-    "description": "Learn basketball skills and compete in intramural games",
-    "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
-    "max_participants": 15,
-    "participants": ["alex@mergington.edu"]
-},
-"Soccer": {
-    "description": "Team soccer practice and friendly matches",
-    "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
-    "max_participants": 20,
-    "participants": ["james@mergington.edu"]
-},
-"Art Club": {
-    "description": "Explore various art mediums and techniques",
-    "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-    "max_participants": 18,
-    "participants": ["grace@mergington.edu", "lily@mergington.edu"]
-},
-"Theater Club": {
-    "description": "Perform in school plays and develop acting skills",
-    "schedule": "Fridays, 4:00 PM - 6:00 PM",
-    "max_participants": 25,
-    "participants": ["jason@mergington.edu"]
-},
-"Robotics Club": {
-    "description": "Build and program robots for competitions",
-    "schedule": "Mondays and Thursdays, 3:30 PM - 5:00 PM",
-    "max_participants": 16,
-    "participants": ["nina@mergington.edu", "kevin@mergington.edu"]
-},
-"Debate Team": {
-    "description": "Develop argumentation and public speaking skills",
-    "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
-    "max_participants": 12,
-    "participants": ["marcus@mergington.edu"]
-}
 }
 
 @app.get("/")
